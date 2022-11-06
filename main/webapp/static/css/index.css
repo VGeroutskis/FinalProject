@@ -1,0 +1,69 @@
+body{
+  background-color: rgba(87, 81, 81, 0.384);
+}
+.container {
+    padding: 10px; /* some padding */
+    text-align: center; /* center the text */
+    color:rgb(133, 40, 40);
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .container h1 {
+    font-size: 40px;
+    align-items:center;
+  }
+
+  .navbar{
+    padding-left: 10px;
+  }
+  .nav .navbar-nav{
+    padding-left:10px;
+
+  }
+   nav{
+    overflow:hidden;
+    background:rgb(65, 62, 62);
+    line-height:20px;
+   
+   }
+   .rt
+    {
+      padding:14px 16px;
+      align-items: center;
+    float:top;
+    }
+
+   nav a{
+    float:left;
+    display:block;
+    width:120px;
+    color:#ffff;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:16px;
+    margin-top:10px;
+   }
+
+  
+   
+
+   nav.container1{
+
+    float:right;
+    margin-right:100px;
+    margin-top:10px;
+
+   }
+
+   .container1 button{
+    float: right;
+    padding:6px;
+    margin-top:8px;
+    margin-right:16px;
+    background: grey;
+    font-size:17px;
+    border:none;
+    cursor:pointer;}
+
+  

@@ -1,0 +1,74 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
+<welcome-file-list>
+	<welcome-file>jsps/index.jsp</welcome-file>
+</welcome-file-list> 
+ 
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<description>
+  	</description>
+  	<display-name>GRFilter</display-name>
+  	<filter-name>GRFilter</filter-name>
+  	<filter-class>gr.aueb.sev.controller.GRFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>GRFilter</filter-name>
+  	<url-pattern>/GRFilter</url-pattern>
+  </filter-mapping>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>InsertTeacherController</display-name>
+  	<servlet-name>InsertTeacherController</servlet-name>
+  	<servlet-class>gr.aueb.sev.controller.InsertTeacherController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>LoginController</display-name>
+  	<servlet-name>LoginController</servlet-name>
+  	<servlet-class>gr.aueb.sev.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>DeleteTeacherController</display-name>
+  	<servlet-name>DeleteTeacherController</servlet-name>
+  	<servlet-class>gr.aueb.sev.controller.DeleteTeacherController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>SearchTeacherController</display-name>
+  	<servlet-name>SearchTeacherController</servlet-name>
+  	<servlet-class>gr.aueb.sev.controller.SearchTeacherController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>UpdateTeacherController</display-name>
+  	<servlet-name>UpdateTeacherController</servlet-name>
+  	<servlet-class>gr.aueb.sev.controller.UpdateTeacherController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertTeacherController</servlet-name>
+  	<url-pattern>/InsertTeacherController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteTeacherController</servlet-name>
+  	<url-pattern>/DeleteTeacherController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchTeacherController</servlet-name>
+  	<url-pattern>/SearchTeacherController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateTeacherController</servlet-name>
+  	<url-pattern>/UpdateTeacherController</url-pattern>
+  </servlet-mapping>
+</web-app>
